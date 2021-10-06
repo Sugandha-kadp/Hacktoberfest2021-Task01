@@ -40,6 +40,6 @@ int main()
   
 
   //print rectangel area
-  cout << r2.calcArea() <<endl;
+  cout << r1.calcArea() <<endl;
   return 0;
 }
