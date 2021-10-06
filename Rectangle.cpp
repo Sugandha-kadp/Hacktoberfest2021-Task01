@@ -1,5 +1,5 @@
 #include <iostream>
-using name space std;
+using namespace std;
 
 class Rectangle
 {
@@ -20,13 +20,13 @@ class Rectangle
 
   void Rectangle::setWidth(int no)
   {
-    width = no
+    width = no;
   }
 
   int Rectangle::calcArea()
   {
     int area = length*width;
-    
+    return area;
   }
 
 int main()
