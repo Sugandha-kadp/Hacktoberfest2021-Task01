@@ -22,7 +22,7 @@ class Rectangle
     width = no
   }
 
-  int Rectangle::calcArea()
+  int Rectangle::calcArea(int length, int width)
   {
     int area = length*width;
     
