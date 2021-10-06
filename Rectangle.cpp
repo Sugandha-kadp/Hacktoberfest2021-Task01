@@ -1,5 +1,13 @@
-#include <iostream>
+/******************************************************************************
 
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
 class Rectangle
 {
   private :
@@ -7,19 +15,19 @@ class Rectangle
     int width;
   
   public : 
-    int setLength(int no);
+    void setLength(int no);
     void setWidth(int no);
     int calcArea();
 };
 
-  void Rectangle::setLength(no)
+  void Rectangle::setLength(int no)
   {
     length = no;
   }
 
-  void Rectangle::setWidth(no)
+  void Rectangle::setWidth(int no)
   {
-    width = no
+    width = no;
   }
 
   int Rectangle::calcArea()
@@ -37,6 +45,7 @@ int main()
   
 
   //print rectangel area
-  cout << r2.calcArea() <<endl;
+  cout << r1.calcArea() <<endl;
   return 0;
 }
+
