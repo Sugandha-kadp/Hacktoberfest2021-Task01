@@ -12,19 +12,22 @@ class Rectangle
     int calcArea();
 };
 
-  void Rectangle::setLength(no)
+  void Rectangle::setLength(int no)
   {
     length = no;
+    
   }
 
-  void Rectangle::setWidth(no)
+  void Rectangle::setWidth(int no)
   {
-    width = no
+    width = no;
+   
   }
 
   int Rectangle::calcArea(int length, int width)
   {
     int area = length*width;
+    return area;
     
   }
 
