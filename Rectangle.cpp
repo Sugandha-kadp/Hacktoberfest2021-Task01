@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 class Rectangle
@@ -36,9 +35,9 @@ int main()
   r1.setLength(10);
   r1.setWidth(20);
   
-
-  //print rectangel area
+ //print rectangel area
   cout << r1.calcArea() <<endl;
   return 0;
+  
 }
 
