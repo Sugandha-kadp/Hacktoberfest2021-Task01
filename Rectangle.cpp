@@ -12,12 +12,12 @@ class Rectangle
     int calcArea();
 };
 
-  void Rectangle::setLength(no)
+  int Rectangle::setLength(int no)   
   {
     length = no;
   }
 
-  void Rectangle::setWidth(no)
+  void Rectangle::setWidth(int no)
   {
     width = no
   }
@@ -37,6 +37,6 @@ int main()
   
 
   //print rectangel area
-  cout << r2.calcArea() <<endl;
+  cout << r1.calcArea() <<endl;
   return 0;
 }
