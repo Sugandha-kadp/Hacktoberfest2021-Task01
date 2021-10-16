@@ -1,42 +1,43 @@
 #include <iostream>
+using namespace std;
 
-class Rectangle
-{
-  private :
-    int length;
-    int width;
-  
-  public : 
-    int setLength(int no);
-    void setWidth(int no);
-    int calcArea();
-};
-
-  void Rectangle::setLength(no)
+  class Rectangle
   {
-    length = no;
-  }
+    private :
+      int length;
+      int width;
 
-  void Rectangle::setWidth(no)
-  {
-    width = no
-  }
+    public : 
+      void setLength(int no);
+      void setWidth(int no);
+      int calcArea();
+  };
 
-  int Rectangle::calcArea()
-  {
-    int area = length*width;
-    
-  }
+    void Rectangle::setLength(int no)
+    {
+      length = no;
+    }
 
-int main()
-{
-  Rectangle r1;
+    void Rectangle::setWidth(int no)
+    {
+      width = no;
+    }
 
-  r1.setLength(10);
-  r1.setWidth(20);
-  
+    int Rectangle::calcArea()
+    {
+      int area = length*width;
+      return area;
+    }
 
-  //print rectangel area
-  cout << r2.calcArea() <<endl;
-  return 0;
-}
+    int main()
+    {
+      Rectangle r1;
+
+      r1.setLength(10);
+      r1.setWidth(20);
+
+
+      //print rectangel area
+      cout << r1.calcArea() <<endl;
+      return 0;
+    }
