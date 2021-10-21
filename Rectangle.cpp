@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 class Rectangle
 {
   private :
@@ -7,33 +7,33 @@ class Rectangle
     int width;
   
   public : 
-    int setLength(int no);
+    void setLength(int no);
     void setWidth(int no);
     int calcArea();
 };
 
-  void Rectangle::setLength(no)
+  void Rectangle::setLength(int no)
   {
     length = no;
   }
 
-  void Rectangle::setWidth(no)
+  void Rectangle::setWidth(int no)
   {
-    width = no
+    width = no;
   }
 
   int Rectangle::calcArea()
   {
     int area = length*width;
-    
+    return area;
   }
 
 int main()
 {
-  Rectangle r1;
+  Rectangle r2;
 
-  r1.setLength(10);
-  r1.setWidth(20);
+  r2.setLength(10);
+  r2.setWidth(20);
   
 
   //print rectangel area
